@@ -6,9 +6,19 @@ const Main = () => {
   return (
     <div className="main">
       {/* ItemList de Artistas */}
-      <ItemList title="Artistas" items={5} itemsArray={artistArray} />
+      <ItemList
+        title="Artistas"
+        items={5}
+        itemsArray={artistArray}
+        path="/artists"
+      />
       {/* ItemList de Músicas */}
-      <ItemList title="Músicas" items={10} itemsArray={songsArray} />
+      <ItemList
+        title="Músicas"
+        items={25}
+        itemsArray={songsArray}
+        path="/songs"
+      />
     </div>
   );
 };
