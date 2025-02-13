@@ -1,6 +1,6 @@
 import SingleItem from "./SongItem";
 
-const SongList = () => {
+const SongList = ({ songsArrayFromArtist }) => {
   return (
     <div className="song-list">
       <SingleItem />
