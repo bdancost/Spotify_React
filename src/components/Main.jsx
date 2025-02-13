@@ -8,9 +8,10 @@ const Main = () => {
       {/* ItemList de Artistas */}
       <ItemList
         title="Artistas"
-        items={5}
+        items={10}
         itemsArray={artistArray}
         path="/artists"
+        idPath="/artist"
       />
       {/* ItemList de Músicas */}
       <ItemList
@@ -18,6 +19,7 @@ const Main = () => {
         items={25}
         itemsArray={songsArray}
         path="/songs"
+        idPath="/song"
       />
     </div>
   );
