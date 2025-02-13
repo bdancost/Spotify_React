@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const SingleItem = ({ id, name, image, banner, artist, idPath }) => {
   return (
@@ -23,6 +24,15 @@ const SingleItem = ({ id, name, image, banner, artist, idPath }) => {
       </div>
     </Link>
   );
+};
+
+SingleItem.propTypes = {
+  id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+  name: PropTypes.string.isRequired,
+  image: PropTypes.string,
+  banner: PropTypes.string,
+  artist: PropTypes.string,
+  idPath: PropTypes.string.isRequired,
 };
 
 export default SingleItem;
