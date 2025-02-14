@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import ItemList from "./ItemList";
 import { artistArray } from "../assets/database/artists";
 import { songsArray } from "../assets/database/songs";
@@ -31,6 +32,10 @@ const Main = ({ type }) => {
       )}
     </div>
   );
+};
+
+Main.propTypes = {
+  type: PropTypes.string,
 };
 
 export default Main;
