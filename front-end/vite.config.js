@@ -7,4 +7,7 @@ export default defineConfig({
   build: {
     target: "esnext",
   },
+  preview: {
+    allowedHosts: ["spotify-react-6thd.onrender.com"],
+  },
 });
