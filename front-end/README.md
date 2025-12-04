@@ -1,13 +1,10 @@
 # Projeto Spotify (React) 🇧🇷
 
-[![Status](https://img.shields.io/badge/status-WIP-orange)](https://github.com/)
 [![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-4.0-yellow?logo=vite)](https://vitejs.dev/)
 [![Node.js](https://img.shields.io/badge/Node.js-18-green?logo=node.js)](https://nodejs.org/)
 [![Express](https://img.shields.io/badge/Express-4.18-lightgrey?logo=express)](https://expressjs.com/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-[![npm](https://img.shields.io/badge/npm-%5E10.0.0-red?logo=npm)](https://www.npmjs.com/)
-[![License](https://img.shields.io/badge/license-Study-brightgreen)]()
 
 Aplicação front-end em React + back-end simples em Express que simula um player estilo "Spotify" com listas de artistas e músicas. Projeto de estudo — use e adapte para aprendizado.
 
